@@ -20,6 +20,6 @@ This exercise will help the students understand the underpinnings of Database de
 
 ### Fake Blog ERD
 
-[ERD goes here]
+![fake blog](https://cloud.githubusercontent.com/assets/16478353/23632495/b559ffb0-0287-11e7-912b-98cb175f7a3f.jpg)
 
 ## Part 2 - Implement the rest of the features
