@@ -6,7 +6,7 @@ using System.Web;
 
 namespace FakeBlog.Models
 {
-    public class BlogPost
+    public class Blog
     {
         [Key]
         public int PostId { get; set; }
@@ -15,7 +15,7 @@ namespace FakeBlog.Models
         [MinLength(3)]
         public string Title { get; set; }
 
-        public string AuthorName { get; set; }
+        public ApplicationUser AuthorName { get; set; }
 
         public DateTime DateCreated { get; set; }  //required by default
 

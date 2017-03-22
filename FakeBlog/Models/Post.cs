@@ -5,7 +5,7 @@ using System.Web;
 
 namespace FakeBlog.Models
 {
-    public class Draft
+    public class Post
     {
         public DateTime DraftDate { get; set; }
 
